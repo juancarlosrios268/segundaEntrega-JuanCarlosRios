@@ -12,7 +12,6 @@ let articulos = [
     {id: 1198, nombre:"microfono" , precio:80000 , cantidad:15 , categoria:"accesorio" },
     {id: 4430, nombre:"pc gamer" , precio:4000000 , cantidad:2 , categoria:"consola" },
 ];
-console.log(articulos)
 
 let menu= "Bienvenido a la tienda de Videojuegos \n INGRESE \n1 Seleccionar producto  \n2 Total carrito \n3 Articulos \n4 Categorias productos  \n0 para salir del menú"
 let opcion = Number(prompt(menu));

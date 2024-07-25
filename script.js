@@ -38,8 +38,6 @@ while(opcion !== 0){
                     categoria: articuloBuscado.categoria
                 })
             }
-                  
-            console.log(carrito)
         } else {
             alert( "EL id ingresado no existe")
         }

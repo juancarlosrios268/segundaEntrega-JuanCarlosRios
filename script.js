@@ -1,5 +1,5 @@
 
-// entrega 2 array de objetos  filter find
+// entrega 2 Juan Carlos Ríos
 
 let articulos = [
     {id: 1209, nombre:"play 5" , precio:2000000 , cantidad:7 , categoria:"consola" },
@@ -13,7 +13,7 @@ let articulos = [
     {id: 4430, nombre:"pc gamer" , precio:4000000 , cantidad:2 , categoria:"consola" },
 ];
 
-let menu= "Bienvenido a la tienda de Videojuegos \n INGRESE \n1 Seleccionar producto  \n2 Total carrito \n3 Articulos \n4 Categorias productos  \n0 para salir del menú"
+let menu= "Bienvenido a la tienda de Videojuegos \n INGRESE \n1 Seleccionar producto por id  \n2 Total carrito \n3 Articulos \n4 Categorias productos  \n0 para salir del menú"
 let opcion = Number(prompt(menu));
 let carrito= []
 
@@ -57,7 +57,7 @@ while(opcion !== 0){
         alert("Articulos: " + mostrarCarrito);
 
     } else if (opcion === 4){
-        let categoria = prompt("consola \n video juego \n accesorio")
+        let categoria = prompt("verifique la categoria del articulo que añadió al carrito \n consola \n video juego \n accesorio")
         let articulosCategoriaSeleccionada = carrito.filter(elemento => elemento.categoria === categoria)
 
         // recorre todos los articulos de la categoria seleccionada para agregar el nombre a la variable que se va mostrar
